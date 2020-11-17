@@ -1,5 +1,6 @@
 import random
 
+# choose the random word from the given list
 def ChooseRandomWord():
     listOfWords=["APPLE", "BILBO", "CHORUSED", "DISIMAGINE", "ENSURING", "FORMALISING", "GLITCHES", "HARMINE", "INDENTATION", 
                 "JACKED", "KALPACS", "LAUNDRY", "MASKED", "NETTED", "OXFORD", "PARODY", "QUOTIENTS", "RACERS", "SADNESS", 
