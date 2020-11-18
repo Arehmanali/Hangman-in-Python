@@ -12,7 +12,7 @@ def ChooseRandomWord():
 print("Welcome to Hangman!")
 endGame="yes"
 while endGame =="yes":
-    secretWord=ChooseRandomWord()
+    secretWord=ChooseRandomWord()           # call the chooseRandomWord() and get a word 
     dashes=list(secretWord)
     displayList=[]
     for i in dashes:
