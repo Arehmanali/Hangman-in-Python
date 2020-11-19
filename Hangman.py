@@ -16,6 +16,7 @@ while endGame =="yes":
     dashes=list(secretWord)
     displayList=[]
     for i in dashes:
+        # add the dash to the display list to show on screen
         displayList.append("_")
     count=len(secretWord)
     guesses=0
