@@ -35,7 +35,7 @@ while endGame =="yes":
                     displayList[i]=letter.upper()
                     count -= 1
             guesses +=1
-        usedList.append(letter.upper())
+        usedList.append(letter.upper())     # add the letter used for guesing in list
     if letter =="exit":
         print("Thanks!")
     else:
