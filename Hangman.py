@@ -23,6 +23,8 @@ while endGame =="yes":
     guesses=0
     letter = 0
     usedList=[]
+    
+    # continue on loop while secret word guessed completly
     while count != 0 and letter!="exit":
         print(" ".join(displayList))
         letter=input("Guess your letter: ")
