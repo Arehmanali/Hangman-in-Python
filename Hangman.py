@@ -22,7 +22,7 @@ while endGame =="yes":
     count=len(secretWord)
     guesses=0
     letter = 0
-    usedList=[]
+    usedList=[]     # list for used words
     
     # continue on loop while secret word guessed completly
     while count != 0 and letter!="exit":
